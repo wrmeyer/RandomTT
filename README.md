@@ -1,5 +1,5 @@
 # RandomTT
-Short script to randomly generate complex propositional statements with "and," "or," "not," "implication," "bi-implication," and "exclusive or" logical operators.
+Script that randomly generates complex propositional statements with "and," "or," "not," "implication," "bi-implication," and "exclusive or" logical operators.
 Uses PrettyTables and a slightly modified version of truths package (https://github.com/tr3buchet/truths) to build statements into a truth table
 
 ## _Usage:_
