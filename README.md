@@ -10,7 +10,7 @@ table = ps.make_table(*number of atomic variables between 2 and 4 variables*)
 returns PrettyTable object with atomic propositions and statements as headers with intermediate columns.
 
 ```sh
-statement_list = ps.rand_statement(*number of atomic variables between 2 and 4 variables*)
+statement_lists = ps.rand_statement(*number of atomic variables between 2 and 4 variables*)
 ```
 returns 3 lists of strings:
 1) list of randomly generated, complex propositional satements
