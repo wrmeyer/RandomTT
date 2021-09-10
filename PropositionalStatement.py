@@ -186,5 +186,8 @@ def break_down(statement):
 
 def make_table(var_num):
     columns = rand_statement(var_num)
-    table = Truths(columns[2], columns[1], columns[0], ints=False).just_table()
+    try:
+        table = Truths(columns[2], columns[1], columns[0], ints=False).just_table()
+    except:
+        raise Exception('Generated statement too long to process. Try again.')
     return(table)
