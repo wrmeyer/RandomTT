@@ -4,7 +4,7 @@ Uses PrettyTables and a slightly modified version of truths package (https://git
 
 ## _Usage:_
 ```sh
-from RandomTT import PropositionalStatement as psnpm i
+from RandomTT import PropositionalStatement as ps
 table = ps.make_table(*number of atomic variables between 2 and 4 variables*)
 ```
 returns PrettyTable object with atomic propositions and statements as headers with intermediate columns.
